@@ -8,7 +8,7 @@
         <li>
           <p>
             <a href="{{ action('QuestionnaireController@show', ['id' => $q->id]) }}">{{ $q->name }}</a>
-            （{{ $q->created_at->format('Y/m/d') }}）
+            （{{ $q->created_at->format('Y年m月d日') }}）
           </p>
         </li>
       @endforeach
